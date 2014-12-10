@@ -1,0 +1,82 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BAction	MyPanel.java	/^	private class BAction implements ActionListener{$/;"	c	language:Java	class:MyPanel
+BruteForce	BruteForce.java	/^	public BruteForce(List<Point> points){$/;"	m	language:Java	class:BruteForce	signature:(List<Point> points)
+BruteForce	BruteForce.java	/^class BruteForce {$/;"	c	language:Java
+ConvexHull	ConvexHull.java	/^public class ConvexHull {$/;"	c	language:Java
+D_HEIGHT	DrawFrame.java	/^	public static final int D_HEIGHT = Toolkit.getDefaultToolkit().getScreenSize().height - 100;$/;"	f	language:Java	class:DrawFrame
+D_WIDTH	DrawFrame.java	/^	public static final int D_WIDTH = Toolkit.getDefaultToolkit().getScreenSize().width - 100;$/;"	f	language:Java	class:DrawFrame
+DevideConquer	DevideConquer.java	/^	public DevideConquer(List<Point> p){$/;"	m	language:Java	class:DevideConquer	signature:(List<Point> p)
+DevideConquer	DevideConquer.java	/^class DevideConquer {$/;"	c	language:Java
+DrawComponent	DrawComponent.java	/^	public DrawComponent(){$/;"	m	language:Java	class:DrawComponent	signature:()
+DrawComponent	DrawComponent.java	/^class DrawComponent extends JComponent {$/;"	c	language:Java
+DrawFrame	DrawFrame.java	/^	public DrawFrame(){$/;"	m	language:Java	class:DrawFrame	signature:()
+DrawFrame	DrawFrame.java	/^public class DrawFrame extends JFrame {$/;"	c	language:Java
+GrahamScan	GrahamScan.java	/^	GrahamScan(List<Point> points){$/;"	m	language:Java	class:GrahamScan	signature:(List<Point> points)
+GrahamScan	GrahamScan.java	/^class GrahamScan {$/;"	c	language:Java
+MouseHandler	MyPanel.java	/^	private class MouseHandler extends MouseAdapter{$/;"	c	language:Java	class:MyPanel
+MyPanel	MyPanel.java	/^	public MyPanel(){$/;"	m	language:Java	class:MyPanel	signature:()
+MyPanel	MyPanel.java	/^class MyPanel extends JPanel {$/;"	c	language:Java
+Point	Point.java	/^	Point(int x, int y){$/;"	m	language:Java	class:Point	signature:(int x, int y)
+Point	Point.java	/^class Point {$/;"	c	language:Java
+RADIUS	DrawComponent.java	/^	private final double RADIUS = 5;$/;"	f	language:Java	class:DrawComponent	file:
+actionPerformed	MyPanel.java	/^		public void actionPerformed(ActionEvent e) {$/;"	m	language:Java	class:MyPanel.BAction	signature:(ActionEvent e)
+add	DrawComponent.java	/^	public void add(Point2D p){$/;"	m	language:Java	class:DrawComponent	signature:(Point2D p)
+addButton	MyPanel.java	/^	private void addButton(String label, ActionListener listener){$/;"	m	language:Java	class:MyPanel	file:	signature:(String label, ActionListener listener)
+bruteForce	BruteForce.java	/^	public List<Point> bruteForce(){$/;"	m	language:Java	class:BruteForce	signature:()
+chpoints	DrawComponent.java	/^	private List<Point> chpoints;$/;"	f	language:Java	class:DrawComponent	file:
+circles	DrawComponent.java	/^	private List<Ellipse2D> circles;$/;"	f	language:Java	class:DrawComponent	file:
+clear	DrawComponent.java	/^	public void clear(){$/;"	m	language:Java	class:DrawComponent	signature:()
+compare	DevideConquer.java	/^	private int compare(Point o, Point x, Point y){$/;"	m	language:Java	class:DevideConquer	file:	signature:(Point o, Point x, Point y)
+comparePolarAngle	GrahamScan.java	/^	public int comparePolarAngle(Point p1, Point p2, Point p0){$/;"	m	language:Java	class:GrahamScan	signature:(Point p1, Point p2, Point p0)
+compareSinSquare	DevideConquer.java	/^	private int compareSinSquare(Point x, Point y){ \/\/if (x2*y1-x1*y2)*(x2*y1 + x1*y2) > 0 then (sinX)2 > (sinY)2$/;"	m	language:Java	class:DevideConquer	file:	signature:(Point x, Point y)
+crossProduct	DevideConquer.java	/^	public int crossProduct(Point p1, Point p2, Point p0){$/;"	m	language:Java	class:DevideConquer	signature:(Point p1, Point p2, Point p0)
+crossProduct	GrahamScan.java	/^	public int crossProduct(Point p1, Point p2, Point p0){$/;"	m	language:Java	class:GrahamScan	signature:(Point p1, Point p2, Point p0)
+devideAndConquer	DevideConquer.java	/^	public List<Point> devideAndConquer(){$/;"	m	language:Java	class:DevideConquer	signature:()
+devideConquer	DevideConquer.java	/^	public List<Point> devideConquer(List<Point> ps){$/;"	m	language:Java	class:DevideConquer	signature:(List<Point> ps)
+drawCom	MyPanel.java	/^	private DrawComponent drawCom;$/;"	f	language:Java	class:MyPanel	file:
+eastPanel	MyPanel.java	/^	private JPanel eastPanel;$/;"	f	language:Java	class:MyPanel	file:
+find	DrawComponent.java	/^	public Ellipse2D find(Point2D p){$/;"	m	language:Java	class:DrawComponent	signature:(Point2D p)
+genPointPanel	MyPanel.java	/^	private JPanel genPointPanel;$/;"	f	language:Java	class:MyPanel	file:
+genePointLabel	MyPanel.java	/^	private JLabel genePointLabel;$/;"	f	language:Java	class:MyPanel	file:
+genePointNum	MyPanel.java	/^	private JTextField genePointNum;$/;"	f	language:Java	class:MyPanel	file:
+getNextToTop	DevideConquer.java	/^	public Point getNextToTop(Stack<Point> stack){$/;"	m	language:Java	class:DevideConquer	signature:(Stack<Point> stack)
+getNextToTop	GrahamScan.java	/^	public Point getNextToTop(Stack<Point> stack){$/;"	m	language:Java	class:GrahamScan	signature:(Stack<Point> stack)
+getPoints	DevideConquer.java	/^	public List<Point> getPoints() {$/;"	m	language:Java	class:DevideConquer	signature:()
+getPoints	GrahamScan.java	/^	public List<Point> getPoints() {$/;"	m	language:Java	class:GrahamScan	signature:()
+getSortedPoints	GrahamScan.java	/^	public List<Point> getSortedPoints(){$/;"	m	language:Java	class:GrahamScan	signature:()
+getX	Point.java	/^	public int getX() {$/;"	m	language:Java	class:Point	signature:()
+getY	Point.java	/^	public int getY() {$/;"	m	language:Java	class:Point	signature:()
+grahamScan	GrahamScan.java	/^	public List<Point> grahamScan(){$/;"	m	language:Java	class:GrahamScan	signature:()
+isInTriangle	BruteForce.java	/^	public boolean isInTriangle(Point pa, Point pb, Point pc, Point pp) {$/;"	m	language:Java	class:BruteForce	signature:(Point pa, Point pb, Point pc, Point pp)
+main	ConvexHull.java	/^	public static void main(String[] arg){$/;"	m	language:Java	class:ConvexHull	signature:(String[] arg)
+mouseClicked	MyPanel.java	/^		public void mouseClicked(MouseEvent event){$/;"	m	language:Java	class:MyPanel.MouseHandler	signature:(MouseEvent event)
+mousePressed	MyPanel.java	/^		public void mousePressed(MouseEvent event){$/;"	m	language:Java	class:MyPanel.MouseHandler	signature:(MouseEvent event)
+paintCH	DrawComponent.java	/^	public void paintCH(List<Point> p){$/;"	m	language:Java	class:DrawComponent	signature:(List<Point> p)
+paintComponent	DrawComponent.java	/^	public void paintComponent(Graphics g){$/;"	m	language:Java	class:DrawComponent	signature:(Graphics g)
+panel	MyPanel.java	/^	private JPanel panel;$/;"	f	language:Java	class:MyPanel	file:
+performaceAnalysis	MyPanel.java	/^	private void performaceAnalysis(){$/;"	m	language:Java	class:MyPanel	file:	signature:()
+pointToLine	BruteForce.java	/^	public int pointToLine(Point p, Point l1, Point l2){$/;"	m	language:Java	class:BruteForce	signature:(Point p, Point l1, Point l2)
+points	BruteForce.java	/^	private List<Point> points;$/;"	f	language:Java	class:BruteForce	file:
+points	DevideConquer.java	/^	private List<Point> points;$/;"	f	language:Java	class:DevideConquer	file:
+points	GrahamScan.java	/^	private List<Point> points;$/;"	f	language:Java	class:GrahamScan	file:
+points	MyPanel.java	/^	private List<Point> points;$/;"	f	language:Java	class:MyPanel	file:
+quadrant	DevideConquer.java	/^	private int quadrant(Point p){$/;"	m	language:Java	class:DevideConquer	file:	signature:(Point p)
+quickSortPolarAngle	GrahamScan.java	/^	public List<Point> quickSortPolarAngle(List<Point> pList, Point p0, int start, int end) {$/;"	m	language:Java	class:GrahamScan	signature:(List<Point> pList, Point p0, int start, int end)
+quickSortX	BruteForce.java	/^	public List<Point> quickSortX(List<Point> pList, int start, int end) {$/;"	m	language:Java	class:BruteForce	signature:(List<Point> pList, int start, int end)
+randomNum	MyPanel.java	/^	public int randomNum(int min, int max, Random r){$/;"	m	language:Java	class:MyPanel	signature:(int min, int max, Random r)
+randomPoins	MyPanel.java	/^	public void randomPoins(int count){$/;"	m	language:Java	class:MyPanel	signature:(int count)
+randomPoinsForAnalysis	MyPanel.java	/^	public void randomPoinsForAnalysis(int count){$/;"	m	language:Java	class:MyPanel	signature:(int count)
+remove	DrawComponent.java	/^	public void remove(Ellipse2D c){$/;"	m	language:Java	class:DrawComponent	signature:(Ellipse2D c)
+removePoint	MyPanel.java	/^	private void removePoint(int x, int y){$/;"	m	language:Java	class:MyPanel	file:	signature:(int x, int y)
+setPoints	DevideConquer.java	/^	public void setPoints(List<Point> points) {$/;"	m	language:Java	class:DevideConquer	signature:(List<Point> points)
+setPoints	GrahamScan.java	/^	public void setPoints(List<Point> points) {$/;"	m	language:Java	class:GrahamScan	signature:(List<Point> points)
+setX	Point.java	/^	public void setX(int x) {$/;"	m	language:Java	class:Point	signature:(int x)
+setY	Point.java	/^	public void setY(int y) {$/;"	m	language:Java	class:Point	signature:(int y)
+timeCost	MyPanel.java	/^	private JLabel timeCost;$/;"	f	language:Java	class:MyPanel	file:
+x	Point.java	/^	private int x;$/;"	f	language:Java	class:Point	file:
+y	Point.java	/^	private int y;$/;"	f	language:Java	class:Point	file:
